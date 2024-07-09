@@ -170,47 +170,119 @@ main .main-container .why-web-section .why-web-container .why-web-gig {
   align-items: center;
 }
 
-main .main-container .why-web-section .why-web-container .why-web-gig.middle{
-    background: linear-gradient(
-        270deg,
-        rgb(255, 255, 255),
-        rgba(255, 255, 255, 0) 100%
-      );
-    gap: 48px;
+main .main-container .why-web-section .why-web-container .why-web-gig.middle {
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  gap: 48px;
 }
 
-main .main-container .why-web-section .why-web-container .why-web-gig .left-container{
-    width: 477px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+main
+  .main-container
+  .why-web-section
+  .why-web-container
+  .why-web-gig
+  .left-container {
+  width: 477px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-main .main-container .why-web-section .why-web-container .why-web-gig .left-container .title{
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-
-main .main-container .why-web-section .why-web-container .why-web-gig .left-container .desc{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-
-main .main-container .why-web-section .why-web-container .why-web-gig .left-container .btn{
-    background: white;
-    border-radius: 0px;
-    width: fit-content;
+main
+  .main-container
+  .why-web-section
+  .why-web-container
+  .why-web-gig
+  .left-container
+  .title {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
-main .main-container .why-web-section .why-web-container .why-web-gig .right-container{
-    width: 260px;
+main
+  .main-container
+  .why-web-section
+  .why-web-container
+  .why-web-gig
+  .left-container
+  .desc {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+main
+  .main-container
+  .why-web-section
+  .why-web-container
+  .why-web-gig
+  .left-container
+  .btn {
+  background: white;
+  border-radius: 0px;
+  width: fit-content;
+  margin-top: 24px;
+}
+
+main
+  .main-container
+  .why-web-section
+  .why-web-container
+  .why-web-gig
+  .right-container {
+  width: 260px;
+}
+
+.inspire-section {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+}
+
+.inspire-section .title-desc-container {
+  width: 852px;
+  margin-top: 88px;
+}
+
+.inspire-section .title-desc-container .title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.inspire-section .title-desc-container .desc {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 24px;
+}
+.inspire-section .inspire-video{
+    width: 1076px;
+    height: 550px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+}
+.inspire-section .inspire-video iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
 }
