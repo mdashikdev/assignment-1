@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Azeret Mono;
+}
+
+.btn {
+  box-sizing: border-box;
+  padding: 21px 24px 21px 24px;
+  cursor: pointer;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+}
+
+nav {
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 47px 0px;
+}
+
+nav .nav-container {
+  width: 1176px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .nav-container .nav-name {
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+nav .nav-container .btn {
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.8;
+  background: white;
+}
+
+.hero-section {
+  width: 100%;
+  height: 652px;
+  background-image: url("/assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section .hero-container {
+  max-width: 998px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero-section .hero-container .hero-img {
+  width: 240px;
+  height: 240px;
+}
+
+.hero-section .hero-container .hero-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hero-section .hero-container .hero-desc {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hero-section .hero-container .hero-btn {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+}
