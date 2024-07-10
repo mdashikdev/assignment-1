@@ -130,7 +130,7 @@ main .main-container .why-web-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 80px;
+  padding: 50px 0px;
 }
 
 main .main-container .why-web-section .why-web-container {
@@ -172,6 +172,7 @@ main .main-container .why-web-section .why-web-container .why-web-gig {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 946px;
 }
 
 main .main-container .why-web-section .why-web-container .why-web-gig.middle {
@@ -181,6 +182,7 @@ main .main-container .why-web-section .why-web-container .why-web-gig.middle {
     rgba(255, 255, 255, 0) 100%
   );
   gap: 48px;
+  justify-content: start;
 }
 
 main
@@ -235,6 +237,7 @@ main
   .btn {
   background: white;
   border-radius: 0px;
+  border: 1px solid;
   width: fit-content;
   margin-top: 24px;
 }
@@ -323,12 +326,19 @@ main
   gap: 24px;
 }
 .current-target-section .targets-container .language-container {
+  width: 292px;
   padding: 40px;
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.current-target-section .targets-container .language-container.css{
+  background: rgba(0, 76, 232, 0.05);
+}
+.current-target-section .targets-container .language-container.js{
+  background: rgba(255, 223, 0, 0.05);
 }
 .current-target-section .targets-container .language-container .language-img {
   width: 56px;
